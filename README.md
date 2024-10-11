@@ -27,6 +27,8 @@ The tests cover various scenarios such as checkout, error handling, logout, and 
    npx cypress run
 ### Bonus task was completed
 
+### Sometimes cy.visit refuses to work due to authorization issues
+
 
 
 
