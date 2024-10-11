@@ -14,6 +14,7 @@ describe('Checkout Test', () => {
           cy.contains(item).should('be.visible');
       });
 
+      cy.get('.checkout_button').click();
       cy.inputInfo();
 
       

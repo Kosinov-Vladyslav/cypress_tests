@@ -23,6 +23,6 @@ describe('Checkout Submission Verification', () => {
 
       cy.url().should('include', '/checkout-complete.html');
       cy.get('.complete-header').should('contain', 'Thank you for your order!');
-      cy.get('.complete-text').should('contain', 'Your order has been dispatched and will arrive shortly!');
+      cy.get('.complete-text').should('contain', 'Your order has been dispatched, and will arrive just as fast as the pony can get there!');
   });
 });
